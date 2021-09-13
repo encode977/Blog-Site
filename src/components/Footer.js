@@ -1,11 +1,15 @@
 import React from "react";
-import "./Footer.scss
-"
+import "./Footer.scss";
+import logo from "../assets/Logo.svg";
 
 function Footer() {
   return (
     <footer className="footer">
-      <h3>Footer</h3>
+      <img src={logo} alt="" />
+      <ul className="footer__link">
+        <li>News Feed</li>
+        <li>Connect</li>
+      </ul>
     </footer>
   );
 }

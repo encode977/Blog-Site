@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Banner from "./pages/Banner";
 import Blog from "./pages/Blog";
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <Banner />
         <Blog />
+        <Footer />
       </div>
     </div>
   );

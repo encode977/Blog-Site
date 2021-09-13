@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .footer__link {
+    display: flex;
+    li {
+      margin-left: 15px;
+      color: gray;
+    }
+  }
+}
