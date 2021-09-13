@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Banner from "./pages/Banner";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="app__body">
         <Header />
         <Banner />
+        <Blog />
       </div>
     </div>
   );
