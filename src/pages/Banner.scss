@@ -1,0 +1,44 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+
+  .banner__img {
+    height: 10%;
+    width: 40%;
+    object-fit: cover;
+    padding: 7px;
+  }
+
+  .banner__desc {
+    margin-left: 55px;
+    h2 {
+      padding: 7px;
+      font-size: 30px;
+    }
+    .text {
+      padding: 7px;
+      color: gray;
+      font-size: 14px;
+    }
+
+    .user__profile {
+      padding: 7px;
+      display: flex;
+      .user__img {
+        height: 40px;
+      }
+    }
+
+    .user__desc {
+      margin-left: 10px;
+      h3 {
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .role {
+        font-size: 12px;
+        color: gray;
+      }
+    }
+  }
+}
